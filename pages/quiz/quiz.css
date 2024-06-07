@@ -18,7 +18,7 @@
     --bg-javascript: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --white: #fff;
-    --gree: #66d782;
+    --greem: #66d782;
     --red: #ee5454;
     --bg-mobile: url(../../assets/images/patter-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
@@ -159,6 +159,24 @@ main {
     & span {
         background: var(--purple);
         color: var(--white);
+    }
+}
+
+.alternativas label#correta {
+    outline: 3px solid var(--greem);
+
+    & span {
+        background: var(--greem);
+        color: var(--white);
+    }
+}
+
+.alternativas label#errada {
+    outline:3px solid var(--red);
+
+    & span {
+        background: var(--red);
+        color:var(--white);
     }
 }
 
